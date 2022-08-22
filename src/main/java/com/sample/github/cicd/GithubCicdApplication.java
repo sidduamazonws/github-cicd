@@ -11,7 +11,7 @@ public class GithubCicdApplication {
 
 	@GetMapping("/greet")
 	public String welcome() {
-		return "Welcome to github CI/CD ...";
+		return "Welcome to github CI/CD ... ";
 	}
 	
 	public static void main(String[] args) {
